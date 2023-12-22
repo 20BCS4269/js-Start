@@ -35,3 +35,29 @@ console.log(typeof anotherId);
 
  
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// +++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYotubeName = "AbhishekJha.com"
+
+let anothername = myYotubeName
+anothername = "abhishekJ"
+
+console.log(myYotubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "abhishek@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
