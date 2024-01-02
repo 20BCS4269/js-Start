@@ -2,7 +2,7 @@
 
 
 (function chai(){
-    // named IIFI
+    // named IIFE
     console.log(`DB CONNECTED`);
 })();
 
