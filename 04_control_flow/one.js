@@ -47,6 +47,6 @@ if (isUserloggedIn && debitcard && 2==2) {
     console.log("Allow to buy course");
 }
 
-if (loggedInFromGoogle || loggedInFromEamil) {
-    console.log("User logged in");
+if (loggedInFromGoogle || loggedInFromEamil) {  // here && and || are logical operator -> && means all condition should be true
+    console.log("User logged in");              // and || means if even one condition is true it will eork
 }
